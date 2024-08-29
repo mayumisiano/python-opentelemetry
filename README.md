@@ -31,7 +31,8 @@ docker run --rm --name jaeger \
   jaegertracing/all-in-one:1.57
 ```
 
-For further details, you may find the full documentation here: https://www.jaegertracing.io/
+> [!NOTE]  
+> For further details, you may find the full documentation here: https://www.jaegertracing.io/
 
 > Once it is set up, we may export our traces to Jaeger UI and visualize them with plenty of details in this endpoint: `http://localhost:16686/search`.
 Notice that the container use several ports, but the 16686 is the one that matters for us.
